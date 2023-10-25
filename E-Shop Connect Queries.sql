@@ -45,6 +45,39 @@ WHERE product_type = "laptop";
 SELECT 
 	*
 FROM comments AS c
-INNER JOIN product AS p ON c.fk_PID = p.PID AND c.fk_PID = 123456789;
+INNER JOIN product AS p ON c.fk_PID = p.PID AND c.fk_PID = 1;
 
-SELECT * FROM comments
+SELECT 
+	*
+FROM comments AS c
+INNER JOIN product AS p ON c.fk_PID = p.PID AND c.fk_PID = 2;
+
+SELECT 
+	*
+FROM comments AS c
+INNER JOIN product AS p ON c.fk_PID = p.PID AND c.fk_PID = 3;
+
+SELECT 
+	*
+FROM comments AS c
+INNER JOIN product AS p ON c.fk_PID = p.PID AND c.fk_PID = 4;
+
+SELECT 
+	*
+FROM comments AS c
+INNER JOIN product AS p ON c.fk_PID = p.PID AND c.fk_PID = 5;
+
+SELECT 
+	*
+FROM comments AS c
+INNER JOIN product AS p ON c.fk_PID = p.PID AND c.fk_PID = 6;
+
+SELECT 
+	*
+FROM comments AS c
+INNER JOIN product AS p ON c.fk_PID = p.PID AND c.fk_PID = 7;
+
+SELECT 
+	*
+FROM comments AS c
+INNER JOIN product AS p ON c.fk_PID = p.PID AND c.fk_PID = 8;
