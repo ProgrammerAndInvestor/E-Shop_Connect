@@ -1,8 +1,17 @@
-# E-Shop_Connect
+<h1 align="center">E-Shop Connect</h1>
 
-- [DDL](https://E-Shop Connect.sql)
-- [DML](/E-Shop Connect Queries.sql)
-- [Inserts](/E-Shop Connect Inserts.sql)
+<ul>
+  <li>
+    <a href="https://github.com/ProgrammerAndInvestor/E-Shop_Connect/blob/main/E-Shop%20Connect.sql">DDL</a>
+  </li>
+  
+  <li>
+    <a href="(https://github.com/ProgrammerAndInvestor/E-Shop_Connect/blob/main/E-Shop%20Connect%20Queries.sql)">DML</a>
+  </li>
+  
+  <li>
+    <a href="(https://github.com/ProgrammerAndInvestor/E-Shop_Connect/blob/main/E-Shop%20Connect%20Inserts.sql)">Inserts</a>
+  </li>
+</ul>
 
-
-https://github.com/ProgrammerAndInvestor/E-Shop_Connect/edit/main/README.md
+#### Descrição
