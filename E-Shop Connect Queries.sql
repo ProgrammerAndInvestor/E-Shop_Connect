@@ -43,41 +43,57 @@ WHERE product_type = "laptop";
 
 -- h. Consultar os comentários do produto 123456789.
 SELECT 
-	*
+	content,
+	grade,
+	creation_time
 FROM comments AS c
 INNER JOIN product AS p ON c.fk_PID = p.PID AND c.fk_PID = 1;
 
 SELECT 
-	*
+	content,
+	grade,
+	creation_time
 FROM comments AS c
 INNER JOIN product AS p ON c.fk_PID = p.PID AND c.fk_PID = 2;
 
 SELECT 
-	*
+	content,
+	grade,
+	creation_time
 FROM comments AS c
 INNER JOIN product AS p ON c.fk_PID = p.PID AND c.fk_PID = 3;
 
 SELECT 
-	*
+	content,
+	grade,
+	creation_time
 FROM comments AS c
 INNER JOIN product AS p ON c.fk_PID = p.PID AND c.fk_PID = 4;
 
 SELECT 
-	*
+	content,
+	grade,
+	creation_time
 FROM comments AS c
 INNER JOIN product AS p ON c.fk_PID = p.PID AND c.fk_PID = 5;
 
 SELECT 
-	*
+	content,
+	grade,
+	creation_time
 FROM comments AS c
 INNER JOIN product AS p ON c.fk_PID = p.PID AND c.fk_PID = 6;
 
 SELECT 
-	*
+	content,
+	grade,
+	creation_time
 FROM comments AS c
 INNER JOIN product AS p ON c.fk_PID = p.PID AND c.fk_PID = 7;
 
 SELECT 
-	*
+	content,
+	grade,
+	creation_time
 FROM comments AS c
 INNER JOIN product AS p ON c.fk_PID = p.PID AND c.fk_PID = 8;
