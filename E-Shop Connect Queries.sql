@@ -29,19 +29,32 @@ FROM product
 WHERE product_type = "laptop";
 
 -- f. Consultar o endereço, hora de inicio (start time) e hora final (end time) dos pontos de serviço da mesma cidade que o usuário cujo ID é 5.
-	-- SELECT 
-		-- s.SPID,
-		-- s.street_address,
-		-- s.city,
-		-- s.start_time,
-		-- s.end_time
-	-- FROM users AS u 
-	-- INNER JOIN address AS a ON u.userID = a.fk_userID AND u.userID = 5
-	-- INNER JOIN service_points AS s ON a.city = s.city;
+	SELECT 
+		s.SPID,
+		s.street_address,
+		s.city,
+		s.start_time,
+		s.end_time
+	FROM users AS u 
+	INNER JOIN address AS a ON u.userID = a.fk_userID AND u.userID = 5
+	INNER JOIN service_points AS s ON a.city = s.city;
     
 -- g. Consultar a quantidade total de produtos que foram colocados no carrinho (shopping cart), considerando a loja com ID (sid) igual a 8.
-
+SELECT 
+	COUNT(s.PID)
+FROM save_to_shopping_cart AS s
+INNER JOIN product AS p ON p.PID = s.fk_PID
+INNER JOIN store AS s ON p.fk_SID = s.SID
+GROUP BY s.PID;
+						
 -- h. Consultar os comentários do produto 123456789.
+SELECT 
+	content,
+	grade,
+	creation_time
+FROM comments AS c
+INNER JOIN product AS p ON c.fk_PID = p.PID AND c.fk_PID = 123456789;
+
 SELECT 
 	content,
 	grade,
