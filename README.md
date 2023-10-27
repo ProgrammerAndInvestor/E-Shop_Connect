@@ -6,11 +6,11 @@
   </li>
   
   <li>
-    <a href="(https://github.com/ProgrammerAndInvestor/E-Shop_Connect/blob/main/E-Shop%20Connect%20Queries.sql)">DML</a>
+    <a href="https://github.com/ProgrammerAndInvestor/E-Shop_Connect/blob/main/E-Shop%20Connect%20Queries.sql">DML</a>
   </li>
   
   <li>
-    <a href="(https://github.com/ProgrammerAndInvestor/E-Shop_Connect/blob/main/E-Shop%20Connect%20Inserts.sql)">Inserts</a>
+    <a href="https://github.com/ProgrammerAndInvestor/E-Shop_Connect/blob/main/E-Shop%20Connect%20Inserts.sql">Inserts</a>
   </li>
 </ul>
 
