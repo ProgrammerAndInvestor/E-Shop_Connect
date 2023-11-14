@@ -19,4 +19,4 @@
 </ul>
 
 #### Descrição
-Este projeto de banco de dados SQL foi desenvolvido como parte do curso **Técnico em Desenvolvimento de Sistemas** na escola **SENAI Suiço-Brasileira** como uma oportunidade para os alunos adquirirem conhecimento prático na utilização do banco e da linguagem.
+Este projeto de banco de dados SQL foi desenvolvido como parte da unidade curricular de **Banco de Dados - BCD** no curso **Técnico em Desenvolvimento de Sistemas** na instituição educacional **SENAI Suiço-Brasileira**. Seu propósito foi proporcionar aos estudantes uma oportunidade prática para a aplicação dos conceitos aprendidos na utilização de bancos de dados e na linguagem SQL.
